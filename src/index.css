@@ -1,5 +1,13 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .container {
+        @apply max-w-7xl mx-auto;
+    }
+}
 .navbar{
     @apply px-4 md:px-8 py-2 pt-4 flex justify-between flex-wrap
 }
@@ -38,4 +46,3 @@
     @apply absolute text-white font-semibold transform -translate-x-1/2 translate-y-1/2
 
 }
-@tailwind utilities;
