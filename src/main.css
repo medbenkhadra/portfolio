@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+.navbar{
+    @apply px-4 md:px-8 py-2 pt-4 flex justify-between flex-wrap
+}
+@screen md{
+    .navbar{
+        @apply px-8
+    }
+}
+.menuIcon{
+    @apply cursor-pointer self-center mr-2 block
+}
+@screen md{
+    .menuIcon{
+        @apply hidden
+    }
+}
+.affichItems{
+    @apply hidden w-full text-center md:flex md:flex-grow md:w-auto
+}
+@screen md{
+    .affichItems{
+        @apply flex flex-grow w-auto
+    }
+}
+.headerOne{
+    @apply flex flex-col pb-20  px-4  py-4 mx-auto justify-center
+}
+@screen md{
+    .headerOne{
+        @apply flex-row px-8
+    }
+}
+.timeline-year > span {
+    top: 50%;
+    left :50%;
+    @apply absolute text-white font-semibold transform -translate-x-1/2 translate-y-1/2
+
+}
+@tailwind utilities;
