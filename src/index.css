@@ -46,3 +46,9 @@
     @apply absolute text-white font-semibold transform -translate-x-1/2 translate-y-1/2
 
 }
+.timeline-year {
+    @apply float-left w-3 h-3 bg-indigo-600 ring-8 ring-indigo-100 rounded-full
+}
+.title-resume{
+    @apply font-bold text-4xl capitalize text-headingcolor mb-8
+}
